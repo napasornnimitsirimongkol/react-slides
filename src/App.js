@@ -11,13 +11,13 @@ import Footer from './componets/Footer';
 import { Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
        <Route path="/" exact={true} component={Home}/>
-       <Route path="/Contact" component={Contact}/>
-       <Route path="/Product" component={Product}/>
-       <Route path="/About" component={About}/>
-       <Route path="/Profile" component={Profile}/>
+       <Route path="/contact" component={Contact}/>
+       <Route path="/products" component={Product}/>
+       <Route path="/about" component={About}/>
+       <Route path="/profile" component={Profile}/>
       <Footer/>
     </div>
   );
